@@ -25,6 +25,7 @@ function onAdd(item) {
         </li>
     </ul>
 
-    <p><input v-model="add"><button @click="onAdd(add)">Add!</button></p>
+    <p><input v-model="add" @keyup.enter="onAdd(add)">
+        <button @click="onAdd(add)">Add!</button></p>
    
 </template>
