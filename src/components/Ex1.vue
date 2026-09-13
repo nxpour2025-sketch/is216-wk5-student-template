@@ -18,7 +18,7 @@ function mOut() {
 
 <template>
     <!-- modify code below -->
-    <div v-bind:id="id" v-on:mouseover="mOver()" v-on:mouseleave="mOut()">
+    <div v-bind:id="id" v-on:mouseover="mOver()" v-on:mouseout="mOut()">
         Mouse Over Me
     </div>
 
